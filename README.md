@@ -66,6 +66,8 @@ Elbow_m = KElbowVisualizer(KMeans(), k=10)
 Elbow_m.fit(rfm_normalized)
 Elbow_m.show()
 ```
+![image](https://github.com/shophiagithub/Customer-Segmentation-in-E-Commerce-KMeans-and-Hierarchical-Clustering-Approach/assets/114874837/cabfb46c-83ce-402b-bbb1-eab5b4fc10bb)
+
 
 ## Hierarchical Clustering
 ## Visualization of the Dendrogram:
@@ -76,6 +78,10 @@ dendo = dendrogram(linkage(rfm_normalized_ac, method='ward'))
 plt.title('Dendrogram', fontsize=15)
 plt.show()
 ```
+![image](https://github.com/shophiagithub/Customer-Segmentation-in-E-Commerce-KMeans-and-Hierarchical-Clustering-Approach/assets/114874837/cf943529-7d1e-4cac-9a2e-9a12e1e835e7)
+
+![image](https://github.com/shophiagithub/Customer-Segmentation-in-E-Commerce-KMeans-and-Hierarchical-Clustering-Approach/assets/114874837/36ed5264-e116-4cd9-8fe5-c4c116f7ee6c)
+
 
 ## Evaluation
 The clustering results are evaluated through visualizations and the identification of VIP clients based on their RFM scores and clustering labels.
